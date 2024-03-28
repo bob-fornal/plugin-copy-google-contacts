@@ -1,7 +1,7 @@
 {
   "name": "Copy a Google Contact Plugin",
   "description": "Copy/Paste of selected Google Contact",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 3,
   "content_security_policy": {
     "script-src": "self",
