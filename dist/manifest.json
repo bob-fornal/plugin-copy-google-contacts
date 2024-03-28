@@ -1,0 +1,26 @@
+{
+  "name": "Copy a Google Contact Plugin",
+  "description": "Copy/Paste of selected Google Contact",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "/images/twitter-plugin-16.png",
+      "32": "/images/twitter-plugin-32.png",
+      "48": "/images/twitter-plugin-48.png",
+      "128": "/images/twitter-plugin-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/twitter-plugin-16.png",
+    "32": "/images/twitter-plugin-32.png",
+    "48": "/images/twitter-plugin-48.png",
+    "128": "/images/twitter-plugin-128.png"
+  }
+}

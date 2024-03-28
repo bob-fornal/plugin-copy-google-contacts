@@ -1,0 +1,65 @@
+body {
+  background-color: #ddd;
+  overflow-y: visible;
+}
+
+.wrapper {
+  font-family: Arial;
+  font-size: 1.2em;
+  margin: 1em;
+  width: 22em;
+}
+
+.group.active .category {
+  display: block;
+}
+.group:not(.active) .category {
+  display: none;
+}
+
+.group > .subtitle:hover {
+  background-color: darkcyan;
+}
+.group > .subtitle:not(:hover) {
+  background-color: green;
+}
+.group > .subtitle {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  color: white;
+}
+
+.title {
+  color: blue;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.category > .subtitle {
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: gray;
+  color: white;
+}
+
+.copyable-item {
+  cursor: pointer;
+  padding: 0.5em;
+  background-color: palegoldenrod;
+}
+.copyable-item:not(.first) {
+  margin-top: 1em;
+}
+.copyable-item.clicked {
+  background-color: palegreen;
+  transition: background-color 1s ease-in-out;
+}
+
+.copyable-item .bold {
+  color: blue;
+  font-weight: bold;
+}
